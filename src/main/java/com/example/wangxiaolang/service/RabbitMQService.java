@@ -8,4 +8,6 @@ package com.example.wangxiaolang.service;
  */
 public interface RabbitMQService {
     void sendMessage(String message);
+
+    void sendMessageSync(String msg);
 }
